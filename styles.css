@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    background-color: #C6CDD1;
+}
+
+@font-face {
+  font-family: "8bit wonder";
+  src: url("Fonts/8bit_wonder/8-BIT WONDER.TTF") format("truetype");
+}
+
+/* Intro page */
+
+#intro-container {
+    height: 100vh;
+    background-color: #0F1416;
+}
+
+#intro-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    margin-right: 4%;
+}
+
+#intro-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#intro-container h1 {
+    font-family: "8bit wonder", system-ui;
+    font-size: 4rem; 
+    color: #00D9A5;
+    margin-bottom: 1%;
+}
+
+
+#intro-container p {
+    color: #C6CDD1;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 1rem;
+    width: 720px;
+}
+
+#intro-container img {
+    width: 350px;
+}
+
+#top-strip {
+    position: absolute;
+    background-color: #D61A74;
+    width: 100%;
+    height: 1%;
+    gap: 5%;
+}
+
+#bot-polygon {
+    position: absolute;
+    clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
+    background: #C6CDD1;
+    width: 100%;
+    height: 10%;
+    bottom: 0;
+}
+
+#intro-main h2 {
+    position: absolute;
+    bottom: 0;
+    color: #D61A74;
+    font-family: "8bit wonder", system-ui;
+    font-size: 1.5rem;
+    margin-bottom: 1%;
+}
+
+/* Projects page */
+
+#inner-projects {
+    display: grid;
+    grid-template-columns: repeat(3, 21%);
+    justify-content: center;
+}
+
+.project.box {
+    background-color: #0F1416;
+    border-radius: 5%;
+    margin: 5%;
+}
+
+.project.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #C6CDD1;
+    padding: 5%;
+}
+
+.project.card img {
+    width: 100%;
+    border-radius: 5%;
+}
+
+.project.card h3 {
+    justify-content: left;
+    width: 100%;
+    margin-bottom: 0;
+    font-family: "8bit wonder", system-ui;
+    font-size: 1rem;
+    color: #00D9A5;
+}
+
+.project.card p {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 1rem;
+}
+
+.project.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    width: 100%;
+}
+
+#github-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 4%;
+}
+
+#linkedin-icon {
+    width: 30px;
+    height: 30px;
+}
+
+/* Footer area */
+
+#footer {
+    display: flex;
+    justify-content: center;       
+    align-items: center;
+    width: 100%;
+    background-color: #0F1416;
+    color: #C6CDD1;
+    padding: 0;
+    border-top: 5px solid #D61A74;
+    height: 60px;
+    margin-top: 1%;
+}
+
+#outer-footer {
+    width: 60.5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#outer-footer h4 {
+    margin: 0;
+}
+
+#inner-footer {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+#inner-footer img {
+    width: 30px;
+    height: auto;
+}
