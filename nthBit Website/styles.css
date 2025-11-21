@@ -3,12 +3,12 @@ body {
     background-color: #C6CDD1;
 }
 
-/* Intro page */
-
 @font-face {
   font-family: "8bit wonder";
   src: url("Fonts/8bit_wonder/8-BIT WONDER.TTF") format("truetype");
 }
+
+/* Intro page */
 
 #intro-container {
     height: 100vh;
@@ -80,7 +80,7 @@ body {
 
 #inner-projects {
     display: grid;
-    grid-template-columns: repeat(3, 22%);
+    grid-template-columns: repeat(3, 21%);
     justify-content: center;
 }
 
@@ -104,14 +104,17 @@ body {
 }
 
 .project.card h3 {
-    display: flex;
-    flex-direction: row;
     justify-content: left;
     width: 100%;
     margin-bottom: 0;
     font-family: "8bit wonder", system-ui;
     font-size: 1rem;
     color: #00D9A5;
+}
+
+.project.card p {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 1rem;
 }
 
 .project.icons {
@@ -134,16 +137,38 @@ body {
 
 /* Footer area */
 
+#footer {
+    display: flex;
+    justify-content: center;       
+    align-items: center;
+    width: 100%;
+    background-color: #0F1416;
+    color: #C6CDD1;
+    padding: 0;
+    border-top: 5px solid #D61A74;
+    height: 60px;
+    margin-top: 1%;
+}
 
 #outer-footer {
+    width: 60.5%;
     display: flex;
-    flex-direction: row;
-    background-color: #0F1416;
-    margin-top: 10%;
-    height: 10%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#outer-footer h4 {
+    margin: 0;
+}
+
+#inner-footer {
+    display: flex;
+    gap: 10px;
+    align-items: center;
 }
 
 #inner-footer img {
     width: 30px;
+    height: auto;
 }
-
