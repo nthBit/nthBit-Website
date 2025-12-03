@@ -49,7 +49,7 @@ button {
     color: #C6CDD1;
     font-family: "IBM Plex Mono", monospace;
     font-size: 1rem;
-    max-width: 700px;
+    max-width: 715px;
     width: 100%;
 }
 
@@ -80,13 +80,13 @@ button {
     color: #D61A74;
     font-family: "8bit wonder", system-ui;
     font-size: 1.5rem;
-    margin-bottom: 1.6%;
+    margin-bottom: 1.5%;
 }
 
 /* Projects page */
 #inner-projects {
     display: grid;
-    grid-template-columns: repeat(3, 21%);
+    grid-template-columns: repeat(3, 24%);
     justify-content: center;
     margin-top: 0;
 }
@@ -179,13 +179,6 @@ button {
 }
 
 /* Media control */
-
-@media (max-width: 1400px) {
-    #intro-main h2 {
-        margin-bottom: 2%;
-    }
-}
-
 @media (max-width: 1200px) {
     /* Intro page */
     #intro-container h1 {
@@ -203,7 +196,7 @@ button {
 
     #intro-main h2 {
         font-size: 1.5rem;
-        margin-bottom: 1.5%;
+        margin-bottom: 2%;
     }
 
     /* Project page */
@@ -217,7 +210,7 @@ button {
     }
 }
 
-@media (max-width: 980px) {
+@media (max-width: 992px) {
     /* Intro page */
     #intro-container h1 {
         font-size: 2.5rem;
@@ -233,7 +226,7 @@ button {
     }
 
     #intro-main h2 {
-        margin-bottom: 4.5%;
+        margin-bottom: 2%;
     }
 
     /* Project page */
@@ -263,7 +256,7 @@ button {
     }
 
     #intro-main h2 {
-        margin-bottom: 4%;
+        margin-bottom: 2%;
     }
 
     /* Project page */
@@ -277,7 +270,7 @@ button {
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 480px) {
     /* Intro page */
     #intro-main {
         flex-direction: column;
@@ -293,16 +286,16 @@ button {
     }
 
     #intro-text {
-        margin-bottom: 8%;
+        margin-bottom: 1%;
     }
 
     #intro-container img {
-        max-width: 220px;
+        max-width: 200px;
     }
 
     #intro-main h2 {
         font-size: 1rem;
-        margin-bottom: 8%;
+        margin-bottom: 4%;
     }
 
     /* Project page */
