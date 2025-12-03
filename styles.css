@@ -157,7 +157,7 @@ button {
 }
 
 #outer-footer {
-    width: 75%;
+    width: 69%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -347,4 +347,5 @@ button {
         width: 72%;
     }
 }
+
 
